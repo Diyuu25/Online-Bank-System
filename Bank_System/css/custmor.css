@@ -1,0 +1,61 @@
+body {
+  font-weight: bolder;
+  background-color: black;
+}
+
+.main-heading {
+  font-family: "Raleway";
+  font-weight: bolder;
+  font-size: 3rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: red;
+  text-shadow: 2px 2px white;
+}
+/*corner icon*/
+.header i {
+  color: red;
+  background-color: greenyellow;
+  border-radius: 50%;
+  position: absolute;
+  right: 70px;
+  top: 40px;
+  opacity: 0.89;
+}
+
+.header i:hover {
+  opacity: 0.5;
+}
+/*table*/
+.table-responsive {
+  margin-left: 250px;
+}
+
+.customer-table {
+  padding: 5% 0;
+  padding-left: 20%;
+}
+
+table th,
+td {
+  border: 2px solid red;
+  width: 20%;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 1.3rem;
+}
+
+th {
+  font-family: "Raleway";
+  color: greenyellow;
+  border-radius: 2px;
+}
+
+td {
+  color: black;
+  background-color: pink;
+}
+
+td:hover {
+  background-color: blue;
+}

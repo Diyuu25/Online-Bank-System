@@ -1,0 +1,107 @@
+<!--The Spark Foundation
+Task 1
+Author:Divya Dinesh Ghanavat-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bank System</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<!--navigation-->
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/bank symbol.jpg" alt="onlinebanksystem.com">
+        </div>
+        <ul>
+            <li class="item"><a href="main.html">Home</a></li>
+            <li class="item"><a href="customer.html">Our Customer</a></li>
+            <li class="item"><a href="#clientsection">Our clients</a></li>
+            <li class="item"><a href="#contact">Contact us</a></li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="item">
+                <h1>The Spark Foundation</h1>
+            </li>
+        </ul>
+    </nav>
+
+    <!--home-->
+    <section id="home">
+        <h3 class="hprimary">Welcome to Online Bank Sysetm</h3>
+        <h1> <span class="change_content"> </span> </h1>
+        <p> "The Sparks Foundation " </p>
+        <a href="customer.html" class="btone"> View Customers </a><br> <br>
+        <a href="transactions.html" class="bttwo"> Make Transactions </a>
+    </section>
+
+    <!--client-->
+    <section id="clientsection">
+        <h1 class="hprimary center">Our clients</h1>
+        <div id="client">
+            <div class="clientitem">
+                <img src="img/apple-gf60751c77_1280.png" alt="Our client">
+            </div>
+            <div class="clientitem">
+                <img src="img/logo-gb8e1ae9ec_1280.png" alt="Our client">
+            </div>
+            <div class="clientitem">
+                <img src="img/magnifying-glass-g4f6476842_1280.png" alt="Our client">
+            </div>
+        </div>
+    </section>
+
+    <!--contact-->
+    <section id="contact">
+        <h1 class="hprimary center"> contact us</h1>
+        <div id="contactbox">
+            <form action="">
+                <div class="formgroup">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter ur name">
+                </div>
+                <div class="formgroup">
+                    <label for="email">Email:</label>
+                    <input type="email" name="name" id="email" placeholder="Enter ur eamil">
+                </div>
+                <div class="formgroup">
+                    <label for="phone">Phone no:</label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter ur mobile no">
+                </div>
+                <div class="formgroup">
+                    <label for="message">message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <div class="center">
+            copyright &copy;www.onlinebanksystem.com All rights reserved!
+        </div>
+    </footer>
+    
+    <!--script-->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+    <!-- aos data  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 700,
+        });
+    </script>
+</body>
+</header>
+
+</html>

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: bolder;
+  background-color: black;
+}
+
+.main-heading {
+  font-family: "Raleway";
+  font-weight: bolder;
+  font-size: 3rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: red;
+  text-shadow: 2px 2px white;
+}
+/*corner icon*/
+.header i {
+  color: red;
+  background-color: greenyellow;
+  border-radius: 50%;
+  position: absolute;
+  right: 70px;
+  top: 40px;
+  opacity: 0.89;
+}
+
+.header i:hover {
+  opacity: 0.5;
+}
+
+/*buttons*/
+.button {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.my-btn {
+  margin-left: 0%;
+  margin-top: 2%;
+  margin-bottom: -3%;
+  font-weight: bolder;
+}
+.btn-outline-info {
+  padding: 1rem 1.2rem;
+  margin-left: 5px;
+  padding: 0.75rem;
+  transition: all 0.3s;
+  border-radius: 8px;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+/*table*/
+
+.customer-table {
+  padding: 5% 0;
+  padding-left: 20%;
+}
+
+table th,
+td {
+  border: 2px solid red;
+  width: 20%;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+td:hover {
+  background-color: blue;
+}
+
+.table-danger,
+.table-danger > td,
+.table-danger > th {
+  background-color: greenyellow;
+}
+
+.table-info,
+.table-info > td,
+.table-info > th {
+  background-color: violet;
+}
